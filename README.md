@@ -9,13 +9,13 @@
   
 **Scaling** is the process of expanding resources and performance with increasing load and traffic on an existing system without increasing complexity. Horizontal and vertical scaling are two types of scaling methods.
 
-![Scaling](images/saclling.png)
+![Scaling](saclling.png)
 
 Option for scaling your database can be grouped into two major categories… 
 * Vertical Scaling
 * Horizontal Scaling
   
-![sacling concepts](images/Scaling-Concept.png)
+![sacling concepts](Scaling-Concept.png)
 
 ## 1. Vertical Scaling
 In simple terms upgrading the capacity of a single machine or moving to a new machine with more power is called vertical scaling. You can add more powers to your machine by adding better processors, increasing RAM, or other power increasing adjustments. Vertical scaling can be easily achieved by switching from small to bigger machines but remember that this involves downtime. You can enhance the capability of your server without manipulating your code. 
@@ -60,7 +60,7 @@ This approach is the best solution for projects which have requirements for high
 # Load balancers
 A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. Load balancers are used to increase capacity (concurrent users) and reliability of applications. They improve the overall performance of applications by decreasing the burden on servers associated with managing and maintaining application and network sessions, as well as by performing application-specific tasks.
 
-![laod balancer](images/what%20is%20load%20balancing.png)
+![laod balancer](what%20is%20load%20balancing.png)
 
 
 
