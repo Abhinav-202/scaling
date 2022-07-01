@@ -18,13 +18,13 @@ The architecture shown below is an  example of a client-server based system. In 
 **Scaling** is the process of expanding resources and performance with increasing load and traffic on an existing system without increasing complexity. Horizontal and vertical scaling are two types of scaling methods.
 
 
-![Scaling](saclling.png)
+![Scaling](images/saclling.png)
 
 Option for scaling your database can be grouped into two major categories… 
 * Vertical Scaling
 * Horizontal Scaling
   
-![sacling concepts](Scaling-Concept.png)
+![sacling concepts](images/Scaling-Concept.png)
 
 ## 1. Vertical Scaling
 In simple terms upgrading the capacity of a single machine or moving to a new machine with more power is called vertical scaling. You can add more powers to your machine by adding better processors, increasing RAM, or other power increasing adjustments. Vertical scaling can be easily achieved by switching from small to bigger machines but remember that this involves downtime. You can enhance the capability of your server without manipulating your code. 
@@ -52,7 +52,7 @@ Example: **MySQL**
 * High risk of hardware failures
 ### A Real-time Example of Vertical Scaling
 When traffic increases, the server degrades in performance. The first possible solution that everyone has is to increase the power of their system. For instance, if earlier they used 8 GB RAM and 128 GB hard drive now with increasing traffic, the power of the system is affected. So a possible solution is to increase the existing RAM or hard drive storage, for e.g. the resources could be increased to 16 GB of RAM and 500 GB of a hard drive but this is not an ultimate solution as after a point of time, these capacities will reach a saturation point. 
-![example of vertcal scaling](62.jpeg)
+![example of vertcal scaling](images/62.jpeg)
 
  
   
@@ -82,7 +82,7 @@ This approach is the best solution for projects which have requirements for high
   
 ### A Real-time Example of Horizontal Scaling
 For example, if there exists a system of the capacity of 8 GB of RAM and in future, there is a requirement of 16 GB of RAM then, rather than the increasing capacity of 8 GB RAM to 16 GB of RAM, similar instances of 8 GB RAM could be used to meet the requirements. 
-![example horizontalscaling](71.jpeg)
+![example horizontalscaling](images/71.jpeg)
 
 ## Comparison
 	
@@ -97,10 +97,10 @@ For example, if there exists a system of the capacity of 8 GB of RAM and in futu
 # Load balancers
 A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. Load balancers are used to increase capacity (concurrent users) and reliability of applications. They improve the overall performance of applications by decreasing the burden on servers associated with managing and maintaining application and network sessions, as well as by performing application-specific tasks.
 
-![laod balancer](what%20is%20load%20balancing.png)
+![laod balancer](images/what%20is%20load%20balancing.png)
 
 Consider a scenario where an application is running on a single server and the client connects to that server directly without load balancing. It will look something like below
-![Single-Server-Without-Load-Balancer](Single-Server-Without-Load-Balancer.png)
+![Single-Server-Without-Load-Balancer](images/Single-Server-Without-Load-Balancer.png)
 We need to discuss the two main problems with this model…
 
 * Single Point of Failure: If the server goes down or something happens to the server the whole application will be interrupted and it will become unavailable for the users for a certain period. It will create a bad experience for users which is unacceptable for service providers.
@@ -108,7 +108,7 @@ We need to discuss the two main problems with this model…
 to the cluster of servers. 
 
 To solve the above issue and to distribute the number of requests we can add a load balancer in front of the web servers and allow our services to handle any number of requests by adding any number of web servers in the network. We can spread the request across multiple servers. For some reason, if one of the servers goes offline the service will be continued. Also, the latency on each request will go down because each server is not bottle-necked on RAM/Disk/CPU anymore.
-![Load-Balancer-System-Design](Load-Balancer-System-Design.png)
+![Load-Balancer-System-Design](images/Load-Balancer-System-Design.png)
 
  
 
