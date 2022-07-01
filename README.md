@@ -7,9 +7,10 @@
   - [Comparison](#comparison)
 - [Load balancers](#load-balancers)
 
-Given architecture is an example of a client-server based system. In this, there is a client who sends requests to the server and then the client receives a response from the server accordingly but when the number of users/clients increases, the load on the server increases enormously which makes it difficult for the server to perform efficiently and hence becomes slow. Therefore, it is important to make the server scalable in a way such that the server capacity increases according to the increasing traffic without any sort of failure.
+Given architecture is an example of a client-server based system. In this, there is a client who sends requests to the server and then the client receives a response from the server accordingly but when the number of users/clients increases, the load on the server increases enormously which makes it difficult for the server to perform efficiently and hence becomes slow. Therefore, it is important to make the server scalable in a way such that the server capacity increases according to the increasing traffic without any sort of failure.![![simple server](52.jpg)
+
 **Scaling** is the process of expanding resources and performance with increasing load and traffic on an existing system without increasing complexity. Horizontal and vertical scaling are two types of scaling methods.
-![scaling](52.jpg)
+
 
 ![Scaling](saclling.png)
 
