@@ -108,7 +108,7 @@ We need to discuss the two main problems with this model…
 to the cluster of servers. 
 
 To solve the above issue and to distribute the number of requests we can add a load balancer in front of the web servers and allow our services to handle any number of requests by adding any number of web servers in the network. We can spread the request across multiple servers. For some reason, if one of the servers goes offline the service will be continued. Also, the latency on each request will go down because each server is not bottle-necked on RAM/Disk/CPU anymore.
-![Load-Balancer-System-Design](Load-Balancer-System-Design.jpeg)
+![Load-Balancer-System-Design](Load-Balancer-System-Design.png)
 
  
 
